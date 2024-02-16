@@ -6,7 +6,7 @@ import useWindowDimensions from "../../../core/hooks/useWindowDimensions";
 const JoinUsSection = () => {
     const {width} = useWindowDimensions();
     return (<>
-        <div className="py-4 md:py-[160px] bg-lightYellow overflow-x-hidden">
+        <div className="py-4 md:py-[160px] bg-lightYellow overflow-hidden pb-20">
             <AppContainer>
                 <div
                     className="h-[690px] md:h-[496px] grid grid-cols-1 md:grid-cols-2 bg-white py-8 px-4 md:p-[80px] rounded-[30px] shadow-2xl relative">
